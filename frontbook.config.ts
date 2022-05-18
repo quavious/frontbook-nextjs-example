@@ -3,7 +3,7 @@ import { IFrontbookConfig } from "frontbook-react";
 import { loader as styledJSX } from "styled-jsx/webpack";
 
 export default {
-  port: 5000,
+  port: 5002,
 
   title: "Component Conti Page",
   subtitle: "🧤 Component Conti Page",

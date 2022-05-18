@@ -2,12 +2,17 @@ import { demo } from 'frontbook-react'
 
 export default demo({
   controls: {
-    name: {
-      type: "select",
-      defaultValue: {
+    inputA: {
+        type: "string",
         defaultValue: "Hello Frontbook!",
-        selectableValues: ["Hello Frontbook!", "A", "B", "C"]
-      },
+    },
+    inputB: {
+        type: 'string',
+        defaultValue: "Example Text"
+    },
+    isChecked: {
+        type: "boolean",
+        defaultValue: false
     }
   },
   renderProps: (props) => {

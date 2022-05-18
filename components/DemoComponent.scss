@@ -1,0 +1,12 @@
+.demoComponent {
+    @apply inline-block bg-purple-200 rounded-sm p-3 shadow text-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    input, div {
+        @apply p-2 m-2 bg-green-500 text-white;
+    }
+}
+  

@@ -1,0 +1,32 @@
+.postListRow {
+  @apply flex flex-col px-4 py-2 rounded shadow mt-4;
+
+  &__title {
+    @apply whitespace-nowrap text-black font-extrabold text-2xl mt-2;
+    opacity: 0.6;
+  }
+
+  &__description {
+    @apply font-medium text-gray-600 text-lg mt-1;
+  }
+
+  &__tag {
+    @apply flex flex-wrap mt-2;
+
+    &Item {
+      @apply bg-purple-600 text-white font-normal mr-3 px-2 py-1 text-sm cursor-pointer;
+    }
+  }
+
+  &__bottom {
+    @apply flex items-center mt-4 pt-2 w-full border-t-2;
+
+    &Author {
+      @apply text-base font-medium mr-2;
+    }
+
+    &CreatedAt {
+      @apply text-base font-normal;
+    }
+  }
+}
